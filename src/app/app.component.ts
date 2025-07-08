@@ -13,4 +13,13 @@ export class AppComponent {
     "CourseTitle" : 'Course',
   }
 
+  showAlert() {
+    alert('Hello World!')
+  }
+
+  onKeyUp(newTitle:string) {
+    this.data.CourseTitle = newTitle;
+
+  }
+
 }
